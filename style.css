@@ -1,0 +1,107 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+.topnav a {
+    float: left;
+    background: color #f2f2f2;
+    font-family: cursive;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #f2f2f2;
+    color: aquamarine;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img_div {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.menu_div {
+    width: 50%;
+    float: right;
+    padding: 160px;
+    font-size: 25px;
+    font-family: cursive;
+    color: honeydew;
+}
+
+#menu_list {
+    background-color: sandybrown;
+    color: black;
+    border: none;
+    width: 200px;
+}
+
+.newrow::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.block1 {
+    width: 20%;
+    padding: 5px;
+    float: left;
+}
+
+.block2 {
+    width: 80%;
+    padding: 5px;
+    float: left;
+    color: honeydew;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+#add_toppings {
+    width: 150px;
+    height: 100px;
+    border: none;
+    background-color: crimson;
+    color: bisque;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+#add_item {
+    font-family: cursive;
+    font-size: 15px;
+    line-height: 20px;
+    width: 80%;
+    height: 50px;
+    color: aliceblue;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(rgb(0, 217, 255), rgb(109, 128, 0), rgb(0, 255, 64));
+    outline: none;
+}
+
+#im1 {
+    width: 100px;
+    height: 80px;
+}
